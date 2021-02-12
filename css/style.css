@@ -83,9 +83,10 @@ button {
 	outline: none;
 }
 .control {
+	width: 100%;
 	margin: 0 auto;
-	width: 1630px;
-	padding: 0 15px;
+	max-width: 1630px;
+	padding: 0 50px;
 }
 .header {
 	height: 150px;
@@ -296,7 +297,7 @@ button {
 .cost__flex-paragraph {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 200px;
+	margin-bottom: 120px;
 }
 .cost__block {
 	border-radius: 30px;
